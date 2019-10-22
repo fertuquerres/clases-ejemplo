@@ -10,12 +10,14 @@ namespace ClaseConstructores
     {
         private string nombre;
         private int edad;
+        private string apellido;
         public Persona()
         {
             nombre = " ";
             edad = 0;
+            apellido= " ";
         }
-        public Persona(string nnombre, int nedad)
+        public Persona(string nnombre, int nedad,string napellido)
         {
             nombre = nnombre;
             edad = nedad;
