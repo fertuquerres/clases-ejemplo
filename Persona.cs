@@ -21,6 +21,7 @@ namespace ClaseConstructores
         {
             nombre = nnombre;
             edad = nedad;
+            apellido= napellido;
         }
         public void SetNombre(string nnombre)
         {
